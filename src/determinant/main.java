@@ -26,10 +26,11 @@ public class main {
 			System.out.println("AxB Product (3)");
 			System.out.println("A+B Sum (4)");
 			System.out.println("A-B Difference (5)");
-			System.out.println("Remind me of A (6)");
+			System.out.println("Remind me of A (6)"); 
 			System.out.println("Erase (0)");
 			System.out.println("Shutdown (-1)");
 		    n=in.nextInt();
+		    
 		    switch(n) {
 		    case -1:breaker=true;break;
 		    case 0:breaker=true;break;
